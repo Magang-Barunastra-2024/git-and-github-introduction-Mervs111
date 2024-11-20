@@ -3,10 +3,35 @@
 
 | Nama  | Division        | Sub-Division  |
 | ----- | ---------- | ---------- |
-| Name here   | ELC/PGR | Sub-div |
+| Mararevi Subagyo   | ELC | Electrical Design |
 
 ## Early Procedure
-
+### 1. Git Download
+First you need to download git to do so you can do it by going to the website 
+   ```
+    https://git-scm.com/downloads
+   ```
+### 2. Account 
+Of Course you need an account to do the stuff you are going to do  therefore to make an account you can go to 
+   ```
+    https://github.com/join
+   ```
+### 3. Git Dash or Terminal Setting 
+After making the account you would need to set your git dash or terminal first before doing the next steps by using commands such as :
+```
+   git config --global user.name (username)
+   git config --global user.email (email)
+   ```
+### 4. SSH KEYS
+To get your SSH keys you can do so by inputing these commands in your terminal or git Dash :
+```
+ssh-keygen -t ed25519 -C "Your@email.com"
+Press ENTER Twice
+```
+To get your SSH Key you would need the command
+```
+git cat ~/.ssh/id_ed25519.pub
+```
 ## Create Repository
 
 ## Push File from Local to Github

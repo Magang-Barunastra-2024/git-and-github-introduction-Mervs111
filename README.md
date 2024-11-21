@@ -8,7 +8,6 @@
 ![alt text](Image/PepeCry.png)![alt text](Image/Screenshot%202024-11-21%20132155.png)
 
 
-
 ## Early Procedure
 ### 1. Git Download
 First you need to download git to do so you can do it by going to the website 

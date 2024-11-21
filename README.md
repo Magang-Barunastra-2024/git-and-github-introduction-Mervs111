@@ -69,7 +69,57 @@ git clone (SSH LINK)
 git branch -m main
 ```
 ## Push File from Local to Github
+### Pushing local files can be done by using commands such as
+```
+git add . 
+git commit -m "Message on what you changed"
+git push origin "branch name"
+```
 
 ## Create New Branch in Github 
+To make new branches these steps can be followed :
+#### 1. Open the Parent Folder
+#### 2. Right click and open in Git Dash
+#### 3. Insert Commands
+```
+git checkout -b (branch name)
+```
+#### 4. To move into the branch that was made you can use this command 
+```
+git checkout (new branch name)
+```
 
 ## Delete Branch in Github
+To delete branches you you can follow these steps :
+### 1. Open Parent folder
+### 2. Right click to open on Git dash
+### 3. Commands to delete the branches are :
+```
+git checkout (branch name)
+```
+the command above is used to move to another branch that is not going to be deleted. The next command is used to delete the branch
+```
+git branch -d (branch name that wants to be deleted)
+```
+## Merge Branch
+### 1. Merge Branch Commands :
+```
+git merge (branch that wants to be merged)
+```
+## Rebase & Fetch
+Essesntially Rebase and Fetch are a form of manual process of the command `git merge`. Here are the commands for it 
+```
+git fetch (branch name)
+git pull --rebase (origin/branch name (usually main))
+```
+`git rebase` can update the local branch by applying all of the commits for another branch to it
+
+# NOTES
+### A. Never forget to PULL BEFORE PUSHING A NEW COMMIT
+```
+git pull (branch name)
+git add .
+git commit -m (New message)
+git push (branch name)
+```
+### B. incase `fatal: refusing to merge unrelated histories` error comes up TRY USING THE COMMAND `git pull --rebase` and `git fetch`

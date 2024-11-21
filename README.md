@@ -126,3 +126,4 @@ git commit -m (New message)
 git push (branch name)
 ```
 ### B. incase `fatal: refusing to merge unrelated histories` error comes up TRY USING THE COMMAND `git pull --rebase` and `git fetch`
+test tambahan

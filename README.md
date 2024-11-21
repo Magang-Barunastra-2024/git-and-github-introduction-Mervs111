@@ -33,7 +33,41 @@ To get your SSH Key you would need the command
 git cat ~/.ssh/id_ed25519.pub
 ```
 ## Create Repository
-
+### 1. Open GitHub
+```
+https://github.com/new
+```
+### 2. Add your name and File type (it can be public or private)
+### 3. Open The new repository
+### 4. Click Code then go to SSH
+### 5. Copy SSH
+to conenct the new repository it can be done manually and automatically
+#### A. Manually 
+##### I. Create Folder
+To create it manually, you need to create a folder in the file explorer with the same exact name as the repository
+##### II. Right Click and open in Git Dash
+##### III. Enter Commands 
+```
+git init
+git remote add origin (SSH Link that was Copied)
+git branch -M main
+```
+##### IV. Check if the local file is the same as the on in Github with this command
+```
+git pull origin (Branch)
+```
+#### B. Automatically
+To do it pretty much automatically the command `git clone` can be used
+##### I. Open git dash at a parent folder
+##### II. Enter Commands 
+```
+git clone (SSH LINK)
+```
+##### III. Open Folder and run git dash
+##### IV. Run this command line 
+```
+git branch -m main
+```
 ## Push File from Local to Github
 
 ## Create New Branch in Github 

@@ -20,21 +20,35 @@ Of Course you need an account to do the stuff you are going to do  therefore to 
     https://github.com/join
    ```
 ### 3. Git Dash or Terminal Setting 
-After making the account you would need to set your git dash or terminal first before doing the next steps by using commands such as :
+After making the account you would need to set your git bash or terminal first before doing the next steps by using commands such as :
 ```
    git config --global user.name (username)
    git config --global user.email (email)
    ```
 ### 4. SSH KEYS
-To get your SSH keys you can do so by inputing these commands in your terminal or git Dash :
+To get your SSH keys you can do so by inputing these commands in your terminal or git Bash :
 ```
 ssh-keygen -t ed25519 -C "Your@email.com"
 Press ENTER Twice
 ```
 To get your SSH Key you would need the command
 ```
-git cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
 ```
+It Should look like this 
+
+![alt text](image/Screenshot%202024-11-22%20230920.png)
+##  After getting your SSH key using the `cat` command you would need to add it to your profile,
+### 1. To do so, you first need to open on the top right of the corner:
+
+![alt text](Image/Screenshot%202024-11-22%20224615.png)
+
+### 2. Next after opening it you need to go to the settings and open the SSH and GPG Keys
+![alt text](Image/Screenshot%202024-11-22%20224823.png)
+### 3. Now you can press New SSH key to go add it 
+![alt text](Image/Screenshot%202024-11-22%20225145.png)
+### 4. At last you can put the SSH Key that you got
+![alt text](Image/Screenshot%202024-11-22%20225330.png)
 ## Create Repository
 ### 1. Open GitHub
 ```
@@ -48,7 +62,7 @@ to conenct the new repository it can be done manually and automatically
 #### A. Manually 
 ##### I. Create Folder
 To create it manually, you need to create a folder in the file explorer with the same exact name as the repository
-##### II. Right Click and open in Git Dash
+##### II. Right Click and open in Git bash
 ##### III. Enter Commands 
 ```
 git init
@@ -66,7 +80,7 @@ To do it pretty much automatically the command `git clone` can be used
 ```
 git clone (SSH LINK)
 ```
-##### III. Open Folder and run git dash
+##### III. Open Folder and run git bash
 ##### IV. Run this command line 
 ```
 git branch -m main
@@ -82,7 +96,7 @@ git push origin "branch name"
 ## Create New Branch in Github 
 To make new branches these steps can be followed :
 #### 1. Open the Parent Folder
-#### 2. Right click and open in Git Dash
+#### 2. Right click and open in Git bash
 #### 3. Insert Commands
 ```
 git checkout -b (branch name)
@@ -95,7 +109,7 @@ git checkout (new branch name)
 ## Delete Branch in Github
 To delete branches you you can follow these steps :
 ### 1. Open Parent folder
-### 2. Right click to open on Git dash
+### 2. Right click to open on Git bash
 ### 3. Commands to delete the branches are :
 ```
 git checkout (branch name)

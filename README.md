@@ -4,12 +4,9 @@
 | Nama  | Division        | Sub-Division  |
 | ----- | ---------- | ---------- |
 | Mararevi Subagyo   | ELC | Electrical Design |
-<<<<<<< HEAD
-=======
 
 ![alt text](Image/PepeCry.png)![alt text](Image/Screenshot%202024-11-21%20132155.png)
 
->>>>>>> 81afa07a703256b7ff4bd844b0451d572bc65b8d
 
 ## Early Procedure
 ### 1. Git Download
@@ -23,31 +20,21 @@ Of Course you need an account to do the stuff you are going to do  therefore to 
     https://github.com/join
    ```
 ### 3. Git Dash or Terminal Setting 
-<<<<<<< HEAD
-After making the account you would need to set your git dash or terminal first before doing the next steps by using commands such as :
-=======
 After making the account you would need to set your git bash or terminal first before doing the next steps by using commands such as :
->>>>>>> 81afa07a703256b7ff4bd844b0451d572bc65b8d
 ```
    git config --global user.name (username)
    git config --global user.email (email)
    ```
 ### 4. SSH KEYS
-<<<<<<< HEAD
-To get your SSH keys you can do so by inputing these commands in your terminal or git Dash :
-=======
 To get your SSH keys you can do so by inputing these commands in your terminal or git Bash :
->>>>>>> 81afa07a703256b7ff4bd844b0451d572bc65b8d
 ```
 ssh-keygen -t ed25519 -C "Your@email.com"
 Press ENTER Twice
 ```
 To get your SSH Key you would need the command
 ```
-<<<<<<< HEAD
 git cat ~/.ssh/id_ed25519.pub
 ```
-=======
 cat ~/.ssh/id_ed25519.pub
 ```
 It Should look like this 
@@ -63,8 +50,7 @@ It Should look like this
 ### 3. Now you can press New SSH key to go add it 
 ![alt text](Image/Screenshot%202024-11-22%20225145.png)
 ### 4. At last you can put the SSH Key that you got
-![alt text](Image/Screenshot%202024-11-22%20225330.png)
->>>>>>> 81afa07a703256b7ff4bd844b0451d572bc65b8d
+![alt text](Image/Screenshot%202024-11-22%20225330.png)git 
 ## Create Repository
 ### 1. Open GitHub
 ```
@@ -78,12 +64,9 @@ to conenct the new repository it can be done manually and automatically
 #### A. Manually 
 ##### I. Create Folder
 To create it manually, you need to create a folder in the file explorer with the same exact name as the repository
-<<<<<<< HEAD
 ##### II. Right Click and open in Git Dash
 =======
-##### II. Right Click and open in Git bash
->>>>>>> 81afa07a703256b7ff4bd844b0451d572bc65b8d
-##### III. Enter Commands 
+##### II. Right Click and open in Git bash##### III. Enter Commands 
 ```
 git init
 git remote add origin (SSH Link that was Copied)
@@ -100,19 +83,12 @@ To do it pretty much automatically the command `git clone` can be used
 ```
 git clone (SSH LINK)
 ```
-<<<<<<< HEAD
-##### III. Open Folder and run git dash
-=======
 ##### III. Open Folder and run git bash
->>>>>>> 81afa07a703256b7ff4bd844b0451d572bc65b8d
 ##### IV. Run this command line 
 ```
 git branch -m main
 ```
 ## Push File from Local to Github
-<<<<<<< HEAD
-# ARE WE PUSHING??? HELL YEAHHHHHHHHHHHHHHHHHHH!!!!!!!!
-=======
 ### Pushing local files can be done by using commands such as
 ```
 git add . 

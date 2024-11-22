@@ -126,4 +126,12 @@ git commit -m (New message)
 git push (branch name)
 ```
 ### B. incase `fatal: refusing to merge unrelated histories` error comes up TRY USING THE COMMAND `git pull --rebase` and `git fetch`
-test tambahan
+ 
+ # Extra Tasks 21 Nov 2024
+ ## Electrical Remote Control Diagram
+ ![alt text](Image/Electrical%20Remote%20Control.drawio.png)
+ ### Explanations : About the Electrical remote control is just standard Procedure in my opinion. first of all signal gets sent from the remote to the receiver and then the receive sends it to the STM32H7 to be intergrated into the coding system. After it is sent to the STM32H7, the signal then gets forwarded to the ESC's using PWM (Pulse Width Modulation) after the process is finished the signal then gets sent to CANBUS for gathering and data sorting from all the other ESC and then gets sent back to the STM32H7.
+
+ ## Fuel Engine Remote Control Diagram
+ ![alt text](Image/Fuel%20Engine%20Remote%20Control.drawio.png)
+ ### Explanations : In this diagram here i am assuming the servo that is used in the builds are to control how fuel and oil output are given. For example, if you press the trigger to the maximum at the remote control then the servo will turn all the way thus then allowing more fuel and oil to the combustion chamber and allowing the boat to be propulsed

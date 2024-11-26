@@ -38,6 +38,7 @@ cat ~/.ssh/id_ed25519.pub
 It Should look like this 
 
 ![alt text](image/Screenshot%202024-11-22%20230920.png)
+## This SHOULD be EDITED
 ##  After getting your SSH key using the `cat` command you would need to add it to your profile,
 ### 1. To do so, you first need to open on the top right of the corner:
 

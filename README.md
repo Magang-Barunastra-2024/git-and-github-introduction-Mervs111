@@ -154,13 +154,13 @@ git push (branch name)
 # INTERNSHIP 26 Nov 2024
 To see my results of the internship this time it can be found in the `Testing code` folder and HOLY DAMN did my code not work, i don't know what makes it not work, but all i can give is my all because dear god C is going to be the death of me. Here are some of the errors i encountered
 
-![alttext](image/Screenshot%202024-11-27%20070530.png)
-![alttext](image/Screenshot%202024-11-27%20070830.png)
+![alttext](image2/Screenshot%202024-11-27%20070530.png)
+![alttext](image2/Screenshot%202024-11-27%20070830.png)
 
 My solution to that error was to reinstall mysys and fix the default build task so it is directed in the right direciton. However this third error made my head feel like it's made out of rock
 
-![alttext](image/Screenshot%202024-11-27%20082824.png)
-![alttext](image/Screenshot%202024-11-27%20082833.png)
+![alttext](image2/Screenshot%202024-11-27%20082824.png)
+![alttext](image2/Screenshot%202024-11-27%20082833.png)
 
 
 ## I still haven't found the solution to this blank output NEED HELP

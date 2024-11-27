@@ -165,6 +165,12 @@ My solution to that error was to reinstall mysys and fix the default build task 
 
 ## I still haven't found the solution to this blank output NEED HELP
 
+but to explain what array and char does basically array is like a place to store many values of the same data, and char is the same as well
+
+for example `char name[] = "Mervi";` is acutally a combination of characters and array or an array of characters
+To call your character variable you can use a format specifier `%c`. By using that format specifier the character variable can be called into your `printf("your age is ... (%c goes here)");`
+
+
 
 
 

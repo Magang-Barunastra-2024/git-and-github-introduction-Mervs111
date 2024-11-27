@@ -151,6 +151,10 @@ git push (branch name)
  ![alt text](Image/Fuel%20Engine%20Remote%20Control.drawio.png)
  ### Explanations : In this diagram here i am assuming the servo that is used in the builds are to control how fuel and oil output are given. For example, if you press the trigger to the maximum at the remote control then the servo will turn all the way thus then allowing more fuel and oil to the combustion chamber and allowing the boat to be propulsed
 
+# KICAD INTERNSHIP
+![alttext](Image2/Screenshot%202024-11-27%20113852.png)
+![alttext](Image2/Screenshot%202024-11-27%20113841.png)
+![alttext](Image2/Screenshot%202024-11-27%20113814.png)
 # INTERNSHIP 26 Nov 2024
 To see my results of the internship this time it can be found in the `Testing code` folder and HOLY DAMN did my code not work, i don't know what makes it not work, but all i can give is my all because dear god C is going to be the death of me. Here are some of the errors i encountered
 

@@ -155,6 +155,8 @@ git push (branch name)
 ![alttext](Image2/Screenshot%202024-11-27%20113852.png)
 ![alttext](Image2/Screenshot%202024-11-27%20113841.png)
 ![alttext](Image2/Screenshot%202024-11-27%20113814.png)
+![alttext](Image2/Screenshot%202024-11-29%20222626.png)
+Made Some changes to the board to make the look the same as the schematicts to reduce jumpers between components
 # INTERNSHIP 26 Nov 2024
 To see my results of the internship this time it can be found in the `Testing code` folder and HOLY DAMN did my code not work, i don't know what makes it not work, but all i can give is my all because dear god C is going to be the death of me. Here are some of the errors i encountered
 
@@ -167,7 +169,7 @@ My solution to that error was to reinstall mysys and fix the default build task 
 ![alttext](Image2/Screenshot%202024-11-27%20082833.png)
 
 
-## I still haven't found the solution to this blank output NEED HELP
+## I still haven't found the solution to this blank output NEED HELP (Solved)
 
 but to explain what array and char does basically array is like a place to store many values of the same data, and char is the same as well
 

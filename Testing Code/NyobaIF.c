@@ -2,7 +2,7 @@
 
 int main (){
     int age;
-    printf ("enter your age/n");
+    printf ("\n Enter Your Age : ");
     scanf ("%d",&age);
     if (age>=18) {
         printf ("you are now signed up!");
@@ -16,6 +16,7 @@ int main (){
         else {
             printf("you are too young to sign up!");
         }
+        return 0;
 }
 
 // no output only 
